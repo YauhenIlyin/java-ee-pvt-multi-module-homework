@@ -6,9 +6,15 @@
 
   <groupId>by.academy</groupId>
   <artifactId>Multi-module-project-demonstrator</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+      <module>model.staff</module>
+      <module>calculating</module>
+      <module>core</module>
+    </modules>
 
-  <name>Multi-module-project-demonstrator</name>
+    <name>Multi-module-project-demonstrator</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
